@@ -1,0 +1,6 @@
+Flask
+gunicorn
+firebase_admin
+pymongo[srv]
+flask-cors
+numpy
