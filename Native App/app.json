@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "remotedoormini",
+    "slug": "remotedoormini",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "",
+    "android": {
+      "package": "com.tushartva.remotedoordata"
+    }
+  },
+  "name": "testapp"
+}

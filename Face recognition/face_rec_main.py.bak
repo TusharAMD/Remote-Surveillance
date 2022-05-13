@@ -114,13 +114,13 @@ while(True):
                 print(f"Welcome {name}")
                 gtts.gTTS(f"Welcome {name}").save("welcome.mp3")
                 
-                p = vlc.MediaPlayer(".\welcome.mp3")
+                '''p = vlc.MediaPlayer(".\welcome.mp3")
                 p.play()
                 time.sleep(0.5)
                 while p.is_playing():
                     time.sleep(0.5) 
-
-                #os.system("python runWelcome.py")
+                break'''
+                os.system("python runWelcome.py")
                 
             
             ## Send Message on Whatsapp if user not in Database##
